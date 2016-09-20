@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <plugin name="CumprimentoLegalCamara" label="Cumprimento Legal da Câmara" plugin-version="1.0" ecidade-version="2.3.50" id-modulo="116">
+    <id id="CumprimentoLegalCamara"> </id>
+    <files>
+      <file name="orc4_cumprimentolegalcamara.RPC.php" path="/orc4_cumprimentolegalcamara.RPC.php" />
+      <file name="orc4_cumprimentolegalcamara001.php" path="/orc4_cumprimentolegalcamara001.php" />
+      <!-- form   -->
+      <file name="db_frmcumprimentolegalcamara.php" path="/forms/db_frmcumprimentolegalcamara.php" />
+      <!-- classe -->
+      <file name="db_cumprimentotetocamara_classe.php"         path="/classes/db_cumprimentotetocamara_classe.php" />
+      <!-- outro  -->
+      <file name="plugins.cumprimentotetocamara.dd.xml"        path="/dd/tabelas/plugins.cumprimentotetocamara.dd.xml" />
+    </files>
+    <estrutura install="/instalacao.sql" uninstall="/desinstalacao.sql" >
+    </estrutura>
+  </plugin>
+</manifest>

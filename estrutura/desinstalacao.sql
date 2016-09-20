@@ -1,0 +1,3 @@
+drop table plugins.cumprimentotetocamara;
+
+drop sequence plugins.cumprimentotetocamara_sequencial_seq;
