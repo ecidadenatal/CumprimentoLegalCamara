@@ -58,7 +58,7 @@ $db_opcao = 2;
           <td name="valorcumprimentolegal"> 
             <?
               db_input('iSequencial',10,$iSequencial,true,'hidden',$db_opcao,"");
-              db_input('nValorPrevisao',10,1,true,'text',$db_opcao,"");
+              db_input('nValorPrevisao',10,4,true,'text',$db_opcao,"");
             ?>
           </td>
         </tr>

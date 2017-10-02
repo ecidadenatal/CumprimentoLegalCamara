@@ -53,7 +53,7 @@ db_app::load("classes/DBViewNotasPendentes.classe.js, widgets/windowAux.widget.j
     <td height="430" align="left" valign="top" bgcolor="#CCCCCC"> 
     <center>
     	<?
-    	  include("forms/db_frmcumprimentolegalcamara.php");
+    	  include(modification("forms/db_frmcumprimentolegalcamara.php"));
     	?>
     </center>
 	</td>
